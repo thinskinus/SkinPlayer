@@ -11,6 +11,7 @@
 		F5EA838F2CB9391400D5B609 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5EA838E2CB9391400D5B609 /* ContentView.swift */; };
 		F5EA83912CB9391500D5B609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EA83902CB9391500D5B609 /* Assets.xcassets */; };
 		F5EA83942CB9391500D5B609 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5EA83932CB9391500D5B609 /* Preview Assets.xcassets */; };
+		F5EA839D2CB945FE00D5B609 /* Skin - I'll Try.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F5EA839C2CB945FE00D5B609 /* Skin - I'll Try.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F5EA838E2CB9391400D5B609 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F5EA83902CB9391500D5B609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5EA83932CB9391500D5B609 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F5EA839C2CB945FE00D5B609 /* Skin - I'll Try.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Skin - I'll Try.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		F5EA838B2CB9391400D5B609 /* SkinPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				F5EA839B2CB945D700D5B609 /* Tracks */,
+				F5EA839A2CB9392A00D5B609 /* Session */,
 				F5EA838C2CB9391400D5B609 /* SkinPlayerApp.swift */,
 				F5EA838E2CB9391400D5B609 /* ContentView.swift */,
 				F5EA83902CB9391500D5B609 /* Assets.xcassets */,
@@ -65,6 +69,21 @@
 				F5EA83932CB9391500D5B609 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F5EA839A2CB9392A00D5B609 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		F5EA839B2CB945D700D5B609 /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				F5EA839C2CB945FE00D5B609 /* Skin - I'll Try.mp3 */,
+			);
+			path = Tracks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5EA83942CB9391500D5B609 /* Preview Assets.xcassets in Resources */,
+				F5EA839D2CB945FE00D5B609 /* Skin - I'll Try.mp3 in Resources */,
 				F5EA83912CB9391500D5B609 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinPlayer/Preview Content\"";
@@ -298,6 +319,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SkinPlayer/Preview Content\"";
